@@ -72,7 +72,7 @@ const urls = [
 
 const randomUrls = shuffle(urls);
 
-const images = document.querySelectorAll('card.img');
+const images = document.querySelectorAll('.card img');
 
 for(let i =0; i< images.length; i++){
     images[i].src = randomUrls[i]
